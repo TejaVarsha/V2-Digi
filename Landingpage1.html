@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Bliss Agency</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #6dd5fa, #2980b9);
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+    .btn {
+      background-color: #ff6b6b;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-size: 1.2em;
+      border-radius: 5px;
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .feature {
+      flex: 1 1 250px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    .feature img {
+      width: 80px;
+      height: 80px;
+    }
+    .pricing {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+    .plan {
+      border: 2px solid #2980b9;
+      border-radius: 10px;
+      padding: 20px;
+      width: 250px;
+      background-color: #eaf6ff;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    input, textarea {
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 1em;
+    }
+    input[type="submit"] {
+      background-color: #2980b9;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #1c5980;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header>
+    <h1>Explore the World with Travel Bliss</h1>
+    <p>Your dream vacation is just a click away!</p>
+    <a href="#contact" class="btn">Book Now</a>
+  </header>
+
+  <!-- Product/Service Description -->
+  <section id="description">
+    <h2>About Our Services</h2>
+    <p>Travel Bliss Agency offers customized travel packages to destinations all over the world. Enjoy hassle-free bookings, expert guidance, and unforgettable experiences tailored to your preferences.</p>
+    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Travel Destination" style="width:80%;max-width:600px;margin-top:20px;border-radius:10px;">
+  </section>
+
+  <!-- Features / Benefits -->
+  <section id="features">
+    <h2>Why Choose Us?</h2>
+    <div class="features">
+      <div class="feature">
+        <img src="https://img.icons8.com/ios/100/000000/airplane-take-off.png" alt="Fast Booking">
+        <h3>Fast Booking</h3>
+        <p>Quick and easy online booking system.</p>
+      </div>
+      <div class="feature">
+        <img src="https://img.icons8.com/ios/100/000000/map.png" alt="Customized Tours">
+        <h3>Customized Tours</h3>
+        <p>Personalized itineraries for every traveler.</p>
+      </div>
+      <div class="feature">
+        <img src="https://img.icons8.com/ios/100/000000/customer-support.png" alt="24/7 Support">
+        <h3>24/7 Support</h3>
+        <p>We’re here to help whenever you need us.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing / Offers -->
+  <section id="pricing">
+    <h2>Our Packages</h2>
+    <div class="pricing">
+      <div class="plan">
+        <h3>Basic</h3>
+        <p>$499 / 3 days</p>
+        <ul>
+          <li>Hotel Stay</li>
+          <li>City Tour</li>
+          <li>Breakfast Included</li>
+        </ul>
+      </div>
+      <div class="plan">
+        <h3>Premium</h3>
+        <p>$899 / 5 days</p>
+        <ul>
+          <li>Luxury Hotel</li>
+          <li>City & Adventure Tour</li>
+          <li>All Meals Included</li>
+        </ul>
+      </div>
+      <div class="plan">
+        <h3>Ultimate</h3>
+        <p>$1299 / 7 days</p>
+        <ul>
+          <li>Luxury Hotel & Flights</li>
+          <li>Exclusive Tours</li>
+          <li>All-Inclusive Meals & Activities</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <input type="submit" value="Send Message">
+    </form>
+  </section>
+
+</body>
+</html>
